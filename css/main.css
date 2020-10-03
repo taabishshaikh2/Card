@@ -5,6 +5,11 @@
 
 }
 .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 40vh;
     position: absolute;
     left: 25%;
     right: 35%;
@@ -16,6 +21,7 @@
     border-radius: 10px;
 }
 .content{
+    
     padding: 20px;
     position: absolute;
     left: 0%;
