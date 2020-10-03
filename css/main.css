@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+.main{
+    position: absolute;
+    left: 25%;
+    right: 35%;
+    top: 15%;
+    bottom: 45%;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.content{
+    padding: 20px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 22.25%;
+
+    background: #E4FFE7;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.title{
+    position: absolute;
+left: 11.25%;
+right: 51.37%;
+top: 7.8%;
+bottom: 83.24%;
+}
+.word{
+    position: absolute;
+left: 11.55%;
+right: 12.16%;
+top: 20.52%;
+bottom: 39.88%;
+}
+.icons{
+  
+    position: absolute;
+    left: 7.6%;
+    right: 10.46%;
+    top: 84.97%;
+    bottom: 100.8%;
+
+}
+.plus{
+    position: absolute;
+    top: 200px;
+    left: 210px;
+}
+.content:hover{
+    transition-delay: 110ms;
+    background: #EFEFEF;
+}
+.plus:hover{
+    transition-delay: 100ms;
+    transform: scale(1.2);
+}
