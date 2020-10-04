@@ -61,11 +61,14 @@
 }
 .icons
 {
-
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
     position: absolute;
-    left: 7.6%;
-    right: 10.46%;
-    top: 84.97%;
+    left: 0;
+    right: 40.46%;
+    top: 85.97%;
     bottom: 100.8%;
 
 }
@@ -81,4 +84,5 @@
 .plus:hover{
     transition-delay: 100ms;
     transform: scale(1.2);
+    color: #3562FF;
 }
