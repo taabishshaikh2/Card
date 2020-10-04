@@ -72,17 +72,27 @@
     bottom: 100.8%;
 
 }
-.plus{
+.content img{
     position: absolute;
     top: 219px;
     left: 230px;
+    overflow: hidden;
+    
 }
 .content:hover{
     transition-delay: 110ms;
     background: #EFEFEF;
 }
-.plus:hover{
-    transition-delay: 100ms;
+ 
+.content img:hover{
+    transition-delay: 110ms;
     transform: scale(1.2);
-    color: #3562FF;
+}   
+.content .plus{
+    z-index: 9999;
+    transition: opacity .5s linear;
+    cursor: pointer;
+}
+.content:hover > .plus{
+    opacity: 0;
 }
