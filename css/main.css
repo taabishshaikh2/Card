@@ -8,8 +8,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
-    width: 40vh;
+    height: 320px;
+    width: 320px;
     position: absolute;
     left: 25%;
     right: 35%;
@@ -21,7 +21,11 @@
     border-radius: 10px;
 }
 .content{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 255px;
+    width: 320px;
     padding: 20px;
     position: absolute;
     left: 0%;
@@ -33,22 +37,31 @@
     border-radius: 10px 10px 0px 0px;
     
 }
-.title{
+.title
+{
     position: absolute;
-left: 11.25%;
-right: 51.37%;
-top: 7.8%;
-bottom: 83.24%;
+    left: 11.25%;
+    right: 51.37%;
+    top: 10.8%;
+    bottom: 83.24%;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
 }
-.word{
+.word
+{     
     position: absolute;
-left: 11.55%;
-right: 12.16%;
-top: 20.52%;
-bottom: 39.88%;
+    left: 11.55%;
+    right: 12.16%;
+    top: 25.52%;
+    bottom: 39.88%;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;   
 }
-.icons{
-  
+.icons
+{
+
     position: absolute;
     left: 7.6%;
     right: 10.46%;
@@ -58,8 +71,8 @@ bottom: 39.88%;
 }
 .plus{
     position: absolute;
-    top: 200px;
-    left: 210px;
+    top: 219px;
+    left: 230px;
 }
 .content:hover{
     transition-delay: 110ms;
